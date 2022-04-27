@@ -41,7 +41,7 @@ int main()
     random.Initialize();
 
     std::map<int, int> sampleMap;
-    std::map<int, int> sampleMap64;
+    std::map<int64_t, int> sampleMap64;
 
     for (int i = 0; i < 100000; i++)
     {

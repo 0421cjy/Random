@@ -7,8 +7,8 @@ using namespace std;
 class Random
 {
 private:
-	tr1::mt19937	m_generator;
-	tr1::mt19937_64 m_generator64;
+	mt19937	m_generator;
+	mt19937_64 m_generator64;
 
 public:
 	Random();
